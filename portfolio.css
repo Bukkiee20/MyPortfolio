@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: animate 16s ease-in-out infinite;
+    
+}
+
+
+.links ul{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 7px;
+   
+    
+}
+
+.links li{
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.links li a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+i{
+    color: black;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+@keyframes animate{
+    0%, 100%{
+        background-image: url(portfolio.jpg);
+    }
+
+    50%{
+        background-image: url(img22.jpeg);
+    }
